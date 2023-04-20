@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo {
+    color: #16507b;
+    font-family: 'Lobster', cursive;
+    font-family: Lobster;
+    font-size: 30px;
+
+}
+
+.logo h2 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+}
+
+.menu a {
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px; 
+    transition: 0.4s;
+}
+
+.menu a:hover {
+    color: #007bff
+}
+
+.menu .btn-menu {
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover {
+    background-color: #124265;
+    color: white;
+} 
+
+/* section main */ 
+
+section.main {
+    background-image: url('https://cdn.pixabay.com/photo/2021/05/30/21/48/background-6297148_960_720.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_cta {
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main_cta h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.main_cta p {
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.main_cta button {
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    font-size: 16px;  
+    cursor: pointer;
+}
+
+.diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single {
+    background-color: white;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.diferencial-single i {
+    color: #124265;
+    font-size: 23px;
+}
+
+.diferencial-single h2 {
+    color: #124265;
+    margin: 10px 0;
+    font-size: 17px;
+
+}
+
+.diferencial-single p {
+    color: #124265;
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+section .sobre {
+    padding: 80px 0;
+}
+
+
+.chamada-sobre {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.chamada-sobre h2 {
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p {
+    font-size: 14px;
+    color: black;
+    margin: 10px 0;
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-sobre p {
+    width: 48%;
+    margin-right: 2%;
+    font-size: 18px;
+}
+
+.conteudo-sobre span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.conteudo-sobre i {
+    color: #007bff;
+}
+
+section.conquistas {
+    background-color: #f8fbfe;
+    padding: 20px 0;
+}
+
+.conquistas-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #124265;
+    font-size: 25px;
+}
+
+.conquistas-single h2 {
+    font-size: 30px;
+}
+
+
+.footer {
+    background-color: black;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.footer h1 {
+    color: white;
+    padding-right: 150px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.footer-1 h2 {
+    color: white;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.footer-texto {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-texto-2 {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .diferencial-single {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .menu-mobile{
+        width: 80%;
+        text-align: right;
+        display: block;
+    }
+
+    .menu-mobile i {
+        cursor: pointer;
+        font-size: 23px;
+        margin-top: 8px;
+    }
+
+    .conteudo-sobre p{
+            width: 100%;
+            margin: 20px 20px;
+        }
+    
+    .footer {
+        width: 100%;
+        display: flex;
+    }
+
+    .footer h1 {
+        font-size: 20px;
+        padding-right: 9px;   
+    }
+
+    .footer-1 {
+        padding-right: 10px;
+    }
+}
