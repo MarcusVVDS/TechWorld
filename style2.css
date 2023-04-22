@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo {
+    color: #16507b;
+    font-family: 'Lobster', cursive;
+    font-family: Lobster;
+    font-size: 30px;
+
+}
+
+.logo h2 {
+    font-weight: normal;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+}
+
+.menu a {
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px; 
+    transition: 0.4s;
+}
+
+.servico {
+    color: #007bff;
+}
+
+.menu a:hover {
+    color: #007bff
+}
+
+.menu .btn-menu {
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover {
+    background-color: #124265;
+    color: white;
+} 
+
+/* MAIN */ 
+
+section.main {
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-memphis-em-meio-tom-azul-escuro_1017-33615.jpg?w=360');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo {
+    text-align: center;
+    color:  white;
+}
+
+.titulo-nome {
+    font-family: 'Lobster', cursive;
+    font-size: 40´x
+    ;
+}
+
+section h1 {
+    font-size: 60px;
+    margin: 10px;
+    color: wheat;
+    font-family: 'Lobster', cursive;
+}
+
+section h2 {
+    font-size: 40px;
+    color: wheat;
+    font-family: 'Lobster', cursive;
+}
+
+.diferenciais {
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    margin: 120px;
+    
+}
+
+.diferencial-single-p {
+    font-size: 18px;
+    padding: 5px;
+    color: wheat;
+}
+
+.diferencial-single ul li {
+    list-style: none;
+    font-size: 15px;
+    color: wheat;
+}
+
+.sub-titulo {
+    font-size: 20px;
+    color: #007bff;
+    color: wheat;
+}
+
+
+.footer {
+    background-color: black;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.footer h1 {
+    color: white;
+    padding-right: 150px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.footer-1 h2 {
+    color: white;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.footer-texto {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-texto-2 {
+    color: white;
+    text-decoration: none;
+}
