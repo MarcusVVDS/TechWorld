@@ -170,3 +170,54 @@ section h2 {
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px){
+    .diferencial-single {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .diferenciais {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .menu-mobile{
+        width: 80%;
+        text-align: right;
+        display: block;
+    }
+
+    .menu-mobile i {
+        cursor: pointer;
+        font-size: 23px;
+        margin-top: 8px;
+    }
+
+    .conteudo-sobre p{
+            width: 100%;
+            margin: 20px 20px;
+        }
+    
+    .footer {
+        width: 100%;
+        display: flex;
+    }
+
+    .footer h1 {
+        font-size: 20px;
+        padding-right: 9px;   
+    }
+
+    .footer-1 {
+        padding-right: 10px;
+    }
+}
