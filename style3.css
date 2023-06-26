@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo {
+    color: #16507b;
+    font-family: 'Lobster', cursive;
+    font-family: Lobster;
+    font-size: 30px;
+
+}
+
+.logo-a{
+    font-weight: normal;
+    font-size: 30px;
+    cursor: pointer;
+    color: #16507b;
+    font-family: 'Lobster', cursive;
+    font-family: Lobster;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+}
+
+.menu a {
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px; 
+    transition: 0.4s;
+}
+
+.servico {
+    color: #007bff;
+}
+
+.menu a:hover {
+    color: #007bff
+}
+
+.menu .btn-menu {
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover {
+    background-color: #124265;
+    color: white;
+} 
+
+/* FORMUALARIO */
+
+.formulario {
+    background-color: #16507b;
+    display: flex;
+    width:fit-content;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+
+.titulo-cadastro {
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    padding: 10px
+
+}
